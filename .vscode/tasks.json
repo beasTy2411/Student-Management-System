@@ -1,0 +1,23 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Student Management System",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "main.c",
+                "functions.c",
+                "data.h",
+                "-o",
+                "program.exe"
+            ],
+            "group":{
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher":[]
+        }
+    ]
+}
