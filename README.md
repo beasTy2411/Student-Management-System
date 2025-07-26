@@ -25,7 +25,7 @@ Developing basics features:
 4. Updating Records
 5. Deleting Records
 
-After developing the basic features, developing the Displaying Statistics.
+After developing the basic features, next step is developing the Displaying Statistics.
 
 Additional Improvement:
 Basics:
