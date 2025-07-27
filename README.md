@@ -36,12 +36,12 @@ Basics:
 Advanced:
 
 1. Storing data in physical files
-2. Sorting Data
-3. Report Generation
-4. Grade Management
+2. Reading and Searching data from file
+3. Sorting Data
 
 Professional:
 
 1. Database Intergration
-2. Developing GUI Interface
-3. User Authentication
+2. Report Generation
+3. Developing GUI Interface
+4. User Authentication

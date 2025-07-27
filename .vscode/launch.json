@@ -11,7 +11,7 @@
       "cwd": "d:/Learning Material/C/C_Programming_Projects/Projects/Student Management System",
       "program": "d:/Learning Material/C/C_Programming_Projects/Projects/Student Management System/build/Debug/outDebug",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

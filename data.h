@@ -30,9 +30,10 @@ extern int array_counter;     // a counter to check the current position in the 
 
 // function prototypes
 void getValidInput(const char *prompt, void *destination, InputType type); // validates the input
-void addStudent();                                                        // to add data of a new student
-void displayStudent(int student_id_search);                               // search a student based on the student_id provided and print the data
-void saveStudentToFile(Student s);                                        // write the input taken from user into a file
-void exportData();
+void addStudent();                                                         // to add data of a new student
+void displayStudent(int student_id_search);                                // search a student based on the student_id provided and print the data
+void saveStudentToFile(Student s);                                         // write the input taken from user into a file
+void exportData();                                                         // export teh data from the binary file to a csv file
+int deleteData(int student_id);                                           // search for the student with the entered id and delete it
 
 #endif
