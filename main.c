@@ -11,6 +11,7 @@ int main()
         printf("1. Add new student data\n");
         printf("2. Display a student data\n");
         printf("3. Delete student data\n");
+        printf("4. Update student data\n");
         printf("9. Export all data to CSV\n");
         printf("0. Exit\n\n");
         printf("Enter a choice: ");
@@ -24,13 +25,20 @@ int main()
         case 2:
             printf("Enter the Student ID: ");
             scanf("%d", &student_id);
-            printf("\n\n");
+            printf("\n");
             displayStudent(student_id);
             break;
         case 3:
             printf("Enter the Student ID: ");
             scanf("%d", &student_id);
             deleteData(student_id);
+            break;
+        case 4:
+            printf("Enter the student ID: ");
+            scanf("%d", &student_id);
+            while (getchar() != '\n')
+                ;
+            updateData(student_id);
             break;
         case 9:
             exportData();
